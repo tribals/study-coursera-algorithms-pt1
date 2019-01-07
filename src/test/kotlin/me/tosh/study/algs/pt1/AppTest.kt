@@ -3,8 +3,7 @@
  */
 package me.tosh.study.algs.pt1
 
-import kotlin.test.Test
-import kotlin.test.assertNotNull
+import kotlin.test.*
 
 class AppTest {
     @Test fun testAppHasAGreeting() {

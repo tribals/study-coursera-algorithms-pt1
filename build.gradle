@@ -31,3 +31,10 @@ dependencies {
 
 // Define the main class for the application.
 mainClassName = 'me.tosh.study.algs.pt1.AppKt'
+
+test {
+    testLogging {
+        events "FAILED", "PASSED", "SKIPPED", "STANDARD_OUT", "STANDARD_ERROR"
+        exceptionFormat "full"
+    }
+}
